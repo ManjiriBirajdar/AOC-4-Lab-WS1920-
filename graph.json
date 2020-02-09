@@ -1,0 +1,268 @@
+{
+    "links": [{
+            "id": "L101",
+            "source": "contro-1",
+            "target": "contro-2",
+            "value": "30"
+        },
+        {
+            "id": "L102",
+            "source": "contro-1",
+            "target": "sw-1",
+            "value": "20"
+        },
+        {
+            "id": "L103",
+            "source": "contro-1",
+            "target": "sw-2",
+            "value": "20"
+        },
+        {
+            "id": "L104",
+            "source": "sw-1",
+            "target": "host-3",
+            "value": "10"
+        },
+        {
+            "id": "L105",
+            "source": "sw-2",
+            "target": "host-1",
+            "value": "10"
+        },
+        {
+            "id": "L106",
+            "source": "contro-2",
+            "target": "sw-3",
+            "value": "20"
+        },
+        {
+            "id": "L107",
+            "source": "sw-3",
+            "target": "host-5",
+            "value": "10"
+        },
+        {
+            "id": "L108",
+            "source": "sw-6",
+            "target": "host-8",
+            "value": "10"
+        },
+        {
+            "id": "L109",
+            "source": "sw-4",
+            "target": "host-6",
+            "value": "10"
+        },
+        {
+            "id": "L110",
+            "source": "sw-5",
+            "target": "host-7",
+            "value": "10"
+        },
+        {
+            "id": "L111",
+            "source": "sw-5",
+            "target": "host-4",
+            "value": "10"
+        },
+        {
+            "id": "L112",
+            "source": "contro-1",
+            "target": "sw-6",
+            "value": "20"
+        },
+        {
+            "id": "L113",
+            "source": "contro-2",
+            "target": "sw-4",
+            "value": "20"
+        },
+        {
+            "id": "L114",
+            "source": "contro-2",
+            "target": "sw-5",
+            "value": "20"
+        },
+        {
+            "id": "L115",
+            "source": "sw-6",
+            "target": "host-3",
+            "value": "10"
+        },
+        {
+            "id": "L116",
+            "source": "sw-1",
+            "target": "host-1",
+            "value": "10"
+        },
+        {
+            "id": "L117",
+            "source": "sw-1",
+            "target": "sw-2",
+            "value": "40"
+        },
+        {
+            "id": "L118",
+            "source": "sw-2",
+            "target": "sw-3",
+            "value": "40"
+        },
+        {
+            "id": "L119",
+            "source": "sw-3",
+            "target": "sw-4",
+            "value": "40"
+        },
+        {
+            "id": "L120",
+            "source": "sw-4",
+            "target": "sw-5",
+            "value": "40"
+        },
+        {
+            "id": "L121",
+            "source": "sw-5",
+            "target": "sw-6",
+            "value": "40"
+        }
+    ],
+
+    "nodes": [{
+            "group": "C",
+            "id": "contro-1",
+            "ip_address": "192.168.8.1",
+            "mac_address": "8A-04-F4-8D-9D-6E",
+            "port": "6768"
+        },
+        {
+            "group": "C",
+            "id": "contro-2",
+            "ip_address": "192.168.8.2",
+            "mac_address": "8A-04-F4-8D-9D-6F",
+            "port": "6768"
+        },
+        {
+            "group": "S",
+            "id": "sw-1",
+            "ip_address": "192.168.8.11",
+            "mac_address": "8B-04-E4-8G-9Z-6P",
+            "port": "8888"
+        },
+        {
+            "group": "S",
+            "id": "sw-2",
+            "ip_address": "192.168.8.12",
+            "mac_address": "8B-04-E4-8G-9Z-6Q",
+            "port": "8888"
+        },
+        {
+            "group": "S",
+            "id": "sw-3",
+            "ip_address": "192.168.8.13",
+            "mac_address": "8B-04-E4-8G-9Z-6R",
+            "port": "8888"
+        },
+        {
+            "group": "S",
+            "id": "sw-4",
+            "ip_address": "192.168.8.14",
+            "mac_address": "8B-04-E4-8H-9Z-6P",
+            "port": "8888"
+        },
+        {
+            "group": "S",
+            "id": "sw-5",
+            "ip_address": "192.168.8.15",
+            "mac_address": "8A-06-E4-8J-9Z-6P",
+            "port": "8888"
+        },
+        {
+            "group": "S",
+            "id": "sw-6",
+            "ip_address": "192.168.8.16",
+            "mac_address": "8B-09-E3-8G-9Z-6P",
+            "port": "8888"
+        },
+        {
+            "group": "H",
+            "id": "host-1",
+            "ip_address": "192.168.8.121",
+            "mac_address": "8B-09-E3-8G-9Z-6P",
+            "port": "3456"
+        },
+        {
+            "group": "H",
+            "id": "host-2",
+            "ip_address": "192.168.8.122",
+            "mac_address": "8B-09-E3-8G-9Z-6P",
+            "port": "3456"
+        },
+        {
+            "group": "H",
+            "id": "host-3",
+            "ip_address": "192.168.8.123",
+            "mac_address": "8B-09-E3-8G-9Z-6P",
+            "port": "3456"
+        },
+        {
+            "group": "H",
+            "id": "host-4",
+            "ip_address": "192.168.8.124",
+            "mac_address": "8B-09-E3-8G-9Z-6P",
+            "port": "3456"
+        },
+        {
+            "group": "H",
+            "id": "host-5",
+            "ip_address": "192.168.8.125",
+            "mac_address": "8B-09-E3-8G-9Z-6P",
+            "port": "3456"
+        },
+        {
+            "group": "H",
+            "id": "host-6",
+            "ip_address": "192.168.8.125",
+            "mac_address": "8B-09-E3-8G-9Z-6P",
+            "port": "3456"
+        },
+        {
+            "group": "H",
+            "id": "host-7",
+            "ip_address": "192.168.8.127",
+            "mac_address": "8B-09-E3-8G-9Z-6P",
+            "port": "3456"
+        },
+        {
+            "group": "H",
+            "id": "host-8",
+            "ip_address": "192.168.8.128",
+            "mac_address": "8B-09-E3-8G-9Z-6P",
+            "port": "3456"
+        }
+    ],
+    "messages": [{
+            "id": "path1",
+            "path": [{
+                    "source": "contro-1",
+                    "target": "sw-1"
+                },
+                {
+                    "source": "sw-1",
+                    "target": "host-3"
+                }
+            ]
+        },
+        {
+            "id": "path2",
+            "path": [{
+                    "source": "contro-1",
+                    "target": "sw-2"
+                },
+                {
+                    "source": "sw-2",
+                    "target": "host-1"
+                }
+            ]
+        }
+    ]
+}
